@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+.navbar h1{
+    text-transform: capitalize;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    margin-right: 10px;
+    text-transform: uppercase;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.searchbar input{
+    width: 80%;
+    height: 20px;
+    font-size: 15px;
+    padding: 10px;
+}.img_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+}
+.img_condainer{
+    display: flex;
+    gap: 30px;
+    
+}
+.img_part{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 230px;
+
+}
+.img_part p{
+    text-align: center;
+}
+.img_part p:hover{
+    color: white;
+    background-color: black;
+}
+.img_part img{
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 30px;
+}
+.about_us p{
+    text-align: center;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+.footer_head{
+    text-align: center;
+}
+.footer_head h3{
+    margin-top: 10px;
+}
+.footer_p{
+    text-align: center;
+    color: grey;
+}
