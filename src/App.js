@@ -1,6 +1,6 @@
  import Navbar from "./components/navbar.js"
     import Searchbar from "./components/searchbar.js";
-    import Imgpart from "./components/imgpart";
+    import Imgpart from "./components/imgpart.js";
     import About from "./components/about.js";
     import Footer from "./components/footer.js";
 function App(){
